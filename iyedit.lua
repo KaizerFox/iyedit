@@ -14156,10 +14156,10 @@ dragg:TweenPosition(UDim2.new(0.5, -225, 0, 100), "InOut", "Quart", 0.5, true, n
 dragg:TweenPosition(UDim2.new(0.5, -225, 0, -600), "InOut", "Quart", 0.5, true, nil) wait(0.5) infopen = false Updates:Destroy() end) end)
 quickmenu.sheild.updates.MouseButton1Click:connect(function() serverinfogui() end) end
 
-local Asset = game:GetService("MarketplaceService"):GetProductInfo(01203480675) wait(0.3)
+local Asset = game:GetService("MarketplaceService"):GetProductInfo(1902874073) wait(0.3)
 if not game.CoreGui:FindFirstChild('IYrun') then
 running = Instance.new("BoolValue") running.Parent = game.CoreGui running.Name = 'IYrun'
-if Asset.Name == "Infinite Yield " .. Version then UTD = true wait(0.5) run() else
+if Asset.Name == "Infinite Yield Edit " .. Version then UTD = true wait(0.5) run() else
 UTD = false local Updates = Instance.new("ScreenGui") local PromptDialog = Instance.new("Frame") local shadow = Instance.new("Frame") local Exit = Instance.new("TextButton")
 local title = Instance.new("TextLabel") local ContainerFrame = Instance.new("Frame") local a = Instance.new("TextLabel") local a2 = Instance.new("TextLabel")
 local a3 = Instance.new("TextLabel") local a2_2 = Instance.new("TextLabel") local UPDATE = Instance.new("TextButton") local Line = Instance.new("Frame")
@@ -14175,7 +14175,7 @@ title.Text = Asset.Name .. " is available" title.TextColor3 = Color3.new(0.97, 0
 ContainerFrame.Name = "ContainerFrame" ContainerFrame.Parent = PromptDialog ContainerFrame.BackgroundColor3 = Color3.new(0.639216, 0.631373, 0.647059) ContainerFrame.Position = UDim2.new(0, 0, 0, 31)
 ContainerFrame.Size = UDim2.new(1, 0, 0.75, 0) ContainerFrame.ZIndex = 8 ContainerFrame.Style = Enum.FrameStyle.DropShadow a.Name = "a" a.Parent = ContainerFrame
 a.BackgroundTransparency = 1 a.Position = UDim2.new(0, 8, 0, 50) a.Size = UDim2.new(1, -16, 0.100000001, 0) a.ZIndex = 10 a.Font = Enum.Font.SourceSansBold
-a.FontSize = Enum.FontSize.Size18 a.Text = "infyield.weebly.com - discord.me/infiniteyield" a.TextColor3 = Color3.new(0.97, 0.97, 0.97) a.TextStrokeTransparency = 0
+a.FontSize = Enum.FontSize.Size18 a.Text = "https://discord.me/Hmm465" a.TextColor3 = Color3.new(0.97, 0.97, 0.97) a.TextStrokeTransparency = 0
 a.TextWrapped = true a.TextYAlignment = Enum.TextYAlignment.Top a2.Name = "a2" a2.Parent = ContainerFrame a2.BackgroundTransparency = 1 a2.Position = UDim2.new(0, 8, 0, 5)
 a2.Size = UDim2.new(1, -16, 0.300000012, 0) a2.ZIndex = 10 a2.Font = Enum.Font.SourceSansBold a2.TextSize = 20 a2.Text = "The version of Infinite Yield you are using is outdated."
 a2.TextColor3 = Color3.new(0.97, 0.97, 0.97) a2.TextStrokeTransparency = 0 a2.TextWrapped = true a2.TextYAlignment = Enum.TextYAlignment.Top a3.Name = "a3" a3.Parent = ContainerFrame
@@ -14196,7 +14196,7 @@ PromptDialog:TweenPosition(UDim2.new(0.5, -219, 0, 150), "InOut", "Quart", 0.4, 
 PromptDialog:TweenPosition(UDim2.new(0.5, -219, 0, -400), "InOut", "Quart", 0.5, true, nil)
 for _, child in pairs(game.CoreGui:GetChildren()) do
 if child.Name == "IYrun" then child:Destroy() end end wait(0.5)
-Updates:Destroy() loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))() end UPDATE.MouseButton1Down:connect(Click) end 
+Updates:Destroy() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hmm465GamingYT/iyedit/master/iyedit.lua'),true))() end UPDATE.MouseButton1Down:connect(Click) end 
 else print('Infinite Yield is already running.') 
   
 for _, player in pairs(game.Players:GetPlayers()) do
