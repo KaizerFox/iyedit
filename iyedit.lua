@@ -14177,10 +14177,10 @@ ContainerFrame.Size = UDim2.new(1, 0, 0.75, 0) ContainerFrame.ZIndex = 8 Contain
 a.BackgroundTransparency = 1 a.Position = UDim2.new(0, 8, 0, 50) a.Size = UDim2.new(1, -16, 0.100000001, 0) a.ZIndex = 10 a.Font = Enum.Font.SourceSansBold
 a.FontSize = Enum.FontSize.Size18 a.Text = "https://discord.me/Hmm465" a.TextColor3 = Color3.new(0.97, 0.97, 0.97) a.TextStrokeTransparency = 0
 a.TextWrapped = true a.TextYAlignment = Enum.TextYAlignment.Top a2.Name = "a2" a2.Parent = ContainerFrame a2.BackgroundTransparency = 1 a2.Position = UDim2.new(0, 8, 0, 5)
-a2.Size = UDim2.new(1, -16, 0.300000012, 0) a2.ZIndex = 10 a2.Font = Enum.Font.SourceSansBold a2.TextSize = 20 a2.Text = "The version of Infinite Yield you are using is outdated."
+a2.Size = UDim2.new(1, -16, 0.300000012, 0) a2.ZIndex = 10 a2.Font = Enum.Font.SourceSansBold a2.TextSize = 20 a2.Text = "The version of Infinite Yield Edit you are using is outdated."
 a2.TextColor3 = Color3.new(0.97, 0.97, 0.97) a2.TextStrokeTransparency = 0 a2.TextWrapped = true a2.TextYAlignment = Enum.TextYAlignment.Top a3.Name = "a3" a3.Parent = ContainerFrame
 a3.BackgroundTransparency = 1 a3.Position = UDim2.new(0, 8, 0, 25) a3.Size = UDim2.new(1, -16, 0.300000012, 0) a3.ZIndex = 10 a3.Font = Enum.Font.SourceSansBold
-a3.TextSize = 20 a3.Text = "You can get a new version at one of these 2 sources." a3.TextColor3 = Color3.new(0.97, 0.97, 0.97) a3.TextStrokeTransparency = 0
+a3.TextSize = 20 a3.Text = "You can load the new version by clicking Update." a3.TextColor3 = Color3.new(0.97, 0.97, 0.97) a3.TextStrokeTransparency = 0
 a3.TextWrapped = true a3.TextYAlignment = Enum.TextYAlignment.Top a2_2.Name = "a2" a2_2.Parent = ContainerFrame a2_2.BackgroundTransparency = 1 a2_2.Position = UDim2.new(0, 8, 0, 92)
 a2_2.Size = UDim2.new(1, -16, 0.300000012, 0) a2_2.ZIndex = 10 a2_2.Font = Enum.Font.SourceSansBold a2_2.FontSize = Enum.FontSize.Size24 a2_2.Text = "If your exploit supports httpget, you can update now by clicking 'Update'"
 a2_2.TextColor3 = Color3.new(0.97, 0.97, 0.97) a2_2.TextStrokeTransparency = 0 a2_2.TextWrapped = true a2_2.TextYAlignment = Enum.TextYAlignment.Top UPDATE.Name = "UPDATE"
@@ -14197,7 +14197,7 @@ PromptDialog:TweenPosition(UDim2.new(0.5, -219, 0, -400), "InOut", "Quart", 0.5,
 for _, child in pairs(game.CoreGui:GetChildren()) do
 if child.Name == "IYrun" then child:Destroy() end end wait(0.5)
 Updates:Destroy() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hmm465GamingYT/iyedit/master/iyedit.lua'),true))() end UPDATE.MouseButton1Down:connect(Click) end 
-else print('Infinite Yield is already running.') 
+else print('Infinite Yield Edit is already running.') 
   
 for _, player in pairs(game.Players:GetPlayers()) do
 if FindTable(pbans, player.userId) then 
