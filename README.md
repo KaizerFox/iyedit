@@ -1,3 +1,5 @@
+# THIS IS NO LONGER BEING UPDATED, AND IS NOW ARCHIVED.
+
 # IY EDIT:
 an edit of infinite yield, edited by Hmm465#7106.
 
