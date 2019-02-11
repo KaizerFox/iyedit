@@ -1,6 +1,6 @@
 # THIS IS NO LONGER BEING UPDATED, AND IS NOW ARCHIVED.
 
-IF YOU WANT MY INFO [go here](https://github.com/Hmm465/hmm465bot)
+# IF YOU WANT MY INFO [go here](https://github.com/Hmm465/hmm465bot)
 
 
 # IY EDIT:
